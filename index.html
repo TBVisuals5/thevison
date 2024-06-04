@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-sale=1.0">
+        <title>Website Template</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">TB Visuals</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contacts">Contacts</a></li> 
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">TB Visuals</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#Contact" onclick="toggleMenu()">Contacts</a></li> 
+                </div>
+            </div>
+        </nav>
+
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="img/profile-pic.png" href="Profile picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello I'm</p>
+                <h1 class="title">TB Visuals</h1>
+                <p class="section__text__p2">Freelance Photographer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('img/resume.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#Contacts'">Contact Info</button>
+                </div>
+                <div id="social-container">
+                    <img src="img/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://linkedin.com/'">
+                    <img src="img/instagram.png" alt="My instagram Profile" class="icon" onclick="location.href='https://www.instagram.com/1tbvisuals_/'">
+                </div>
+            </div>
+        </section>
+
+        <section id="About">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="img/about-pic.png" alt="Profile picture" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="img/experience.png" alt="Experience icon" class="icon"/>
+                            <h3>Experience</h3>
+                            <p>2+ years <br />Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="img/education.png" alt="Education icon" class="icon"/>
+                            <h3>Education</h3>
+                            <p>Computer Science Major <br />Photography Minor</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>My name is Teddy Bien-Aime, a college freshman freelance photographer at Morehouse College. I picked up a camera for the first time when I was in 6th grade in Port-au-Prince, Haiti, and was fascinated by the number of things that were possible with the device. Unfortunately, I had to stop due to not having my own device but didn't give up and started taking pictures with my phone. I started using my own camera in my first year in college and wanted to create a name for myself throughout my journey of photography. One morning while I was thinking of names for my business, I realized that using my initials "TB" in it somewhere could connect me to my passion. Once I shared the idea with my dorm mates, and they agreed, TB Visuals came to reality.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Experience'">
+        </section>
+
+        <section id="Experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>C++</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>    
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Photographer/Videographer</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Photography</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Videography</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Editing</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Designing</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>Promoting</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/arrowup.png" alt="Arrow icon" class="icon arrowup" onclick="location.href='./#About'">
+            <img src="img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Projects'">
+        </section>
+
+        <section id="Projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="abour-containers">
+                <div class="details-container color-container">
+                    <img src="img/project-1.png" alt="Project 1" class="project-img">
+                    <h2 class="experience-sub-title project-title">Project One - Website</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://tbvisuals5.github.io/TB_Visuals-Portfolio/index.html?fbclid=PAZXh0bgNhZW0CMTEAAaaR-IZkWkVeMvRV4z3qfNozycRESaHyhFIg4Yg1M16sACA8bPGxKdGdh-w_aem_ARUJJ4XbmdpaIg2zl32iznWAjNjCRO4b8RFXSXP2Gp1KsCXPI0O2EfI7AQ1-1zjzvI01CrBd8M380Uo5YhWR4n7'">Website
+                        </button>
+                    </div>
+                </div>
+            </div>
+                <div class="details-container color-container">
+                    <img src="img/gallery.png" alt="Project 3" class="project-img">
+                    <h2 class="experience-sub-title project-title">Project Two - TB Visuals Gallery</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='gallery.html'">All Content
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <img src="img/arrowup.png" alt="Arrow icon" class="icon arrowup" onclick="location.href='./#Experience'">
+            <img src="img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Contacts'">
+        </section>
+
+        <section id="Contacts">
+            <p class="section__text__p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="img/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                    <p><a href="mailto:tbvisuals5@gmail.com">tbvisuals5@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="img/linktree.png" alt="Linktree icon" class="icon contact-icon">
+                    <p><a href="https://linktr.ee/1TBvisuals">Linktree</a></p>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://tbysgn.setmore.com/?source=easyshare'">Book Now
+                </button>
+            </div>
+        </section>
+
+        <footer>
+
+            <nav>
+                <div class="nav-links-conatiner">
+                    <ul class="nav-links">
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Experience">Experience</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Contact">Contacts</a></li> 
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 John Doe. All Rights Reserved</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+
+
+
+</html>
