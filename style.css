@@ -310,6 +310,7 @@ title {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    background: url(img/marbel.png)
 }
 
 .section-container {
@@ -407,6 +408,7 @@ article .icon {
     background: (250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
+    background: url(img/marbel.png);
 }
 
 .contact-info-container {
